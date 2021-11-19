@@ -9,20 +9,8 @@
         box-sizing: border-box;
       }
 
-      body {
-        background-color: gray;
-      }
-
-      .style1 {
-        font-family: monospace;
-        font-size: 40px;
-      }
-
       h1 {
         margin-bottom: 15px;
-        text-align: center;
-        font-size: 52px;
-      }
 
       }
 
@@ -31,8 +19,6 @@
         width: 100%;
         margin-right: auto;
         margin-left: auto;
-        background-color: gray;
-
       }
 
       div#container-fluid1 {
@@ -42,9 +28,6 @@
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 15px;
-        background-color: maroon;
-        font-family: monospace;
-        color: gold;
 
       }
 
@@ -55,9 +38,6 @@
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 15px;
-        background-color: maroon;
-        font-family: monospace;
-        color: gold;
       }
 
       div#container-fluid3 {
@@ -67,18 +47,9 @@
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 15px;
-        background-color: maroon;
-        font-family: monospace;
-        color: gold;
       }
 
       p {
-        background-color: brown;
-        font-family: monospace;
-        font-weight: 50;
-        font-size: 24px;
-        color: silver;
-        text-align: center;
         width: 100px;
         border: 3px solid black;
         position: relative;
@@ -87,15 +58,12 @@
       }
 
       #p1 {
-        background-color: brown;
         width: 130px;
         border: 3px solid black;
 
       }
 
       section {
-        font-size: 18px;
-        text-align: center;
         clear: left;
         padding: 100px 0px 0px 0px;
       }
@@ -340,3 +308,65 @@
   </head>
 
 </hmtl>
+
+((CSS CODE UNDERNEATH))
+
+body {
+  background-color: gray;
+}
+
+.style1 {
+  font-family: monospace;
+  font-size: 40px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 52px;
+}
+
+div {
+  background-color: gray;
+}
+
+div#container-fluid1 {
+  background-color: maroon;
+  font-family: monospace;
+  color: gold;
+
+}
+
+div#container-fluid2 {
+  background-color: maroon;
+  font-family: monospace;
+  color: gold;
+
+}
+
+div#container-fluid3 {
+
+  background-color: maroon;
+  font-family: monospace;
+  color: gold;
+
+}
+
+p {
+  background-color: brown;
+  font-family: monospace;
+  font-weight: 50;
+  font-size: 24px;
+  color: silver;
+  text-align: center;
+
+
+}
+
+#p1 {
+  background-color: brown;
+}
+
+section {
+  font-size: 18px;
+  text-align: center;
+}
